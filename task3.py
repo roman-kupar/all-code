@@ -1,11 +1,9 @@
 
 str = "pynative"
-x = -2
-lenght = len(str) + 1
-for i in range(0, (lenght//2)):
-    x += 2 
-    print(str[x])
-
+lenght = len(str) 
+for i in range(0, lenght):
+    if i % 2 == 0:
+        print(str[i])
 
 #if x%2 == 0:
      #   print(a[x])

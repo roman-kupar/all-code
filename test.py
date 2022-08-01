@@ -1,3 +1,2 @@
-exit()
-def x (number, string):
-    return number*string
+a = ('+')
+print(type(a))
