@@ -1,8 +1,5 @@
-from distutils.util import execute
-from pickle import READONLY_BUFFER
 from tkinter import *
 import tkinter as tk
-import tkinter as tkk
 window=tk.Tk()                                               
 window.geometry('300x260')
 window.resizable(width = False, height = False)
