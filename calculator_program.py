@@ -52,9 +52,9 @@ def add_digit(name):
 def get_number(name):
     if name != '=' and name != 'r' and name != '√' and name != 'C':
         add_digit(name)
-    elif name == '=':
+    if name == '=':
         calculate()
-    elif name == '√':
+    if name == '√':
         root()    
     if name == 'C':
         clear()
